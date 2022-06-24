@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../php/index.php">
     <title>Document</title>
 </head>
 <body>
@@ -17,28 +19,28 @@
               </ul>
         </nav>
     </header>
-    <h1>Tunic</h1>
+    <h1>Contact</h1>
     <div class="container">
         <form action="action_page.php">
       
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="fname">prénom</label>
+          <input type="text" id="fname" name="firstname" placeholder="prénom..">
       
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="lname">Nom</label>
+          <input type="text" id="lname" name="lastname" placeholder="NOM..">
       
-          <label for="country">Country</label>
+          <label for="country">pays</label>
           <select id="country" name="country">
-            <option value="australia">Australia</option>
+            <option value="australia">Belgique</option>
             <option value="canada">Canada</option>
-            <option value="usa">USA</option>
+            <option value="usa">France</option>
           </select>
       
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
+          <label for="subject">commentaire</label>
+          <textarea id="subject" name="subject" placeholder="Votre commentaire.." style="height:200px"></textarea>
+      <div class="bouton">
+          <a href="mailto:latelieramandinedine@gmail.com">envoyer </a>
+        </div>
         </form>
       </div>
       <br> <br> <br> <br>
@@ -46,11 +48,17 @@
       <br> <br> <br> <br>
       <br> <br> <br> <br>
       <br> <br> <br> <br> 
-    <footer>
+      <div id="carte">
+      <img src="../img/carte.webp"></img>
+    </div>
+    <br> <br> <br> <br>
+    <br> <br>  <br> <br>
+    <br> <br>  <br> <br>
+    <br> <br>  <br> <br>
         <div class="container">
             <form action="/action_page.php">
               <div class="row">
-                <h2 style="text-align:center">Login with Social Media or Manually</h2>
+                <h2 style="text-align:center">Réseaux Sociaux</h2>
                 <div class="vl">
                 </div>
           
@@ -71,12 +79,12 @@
                     <p>Or sign in manually:</p>
                   </div>
           
-                  <input type="text" name="username" placeholder="Username" required>
-                  <input type="password" name="password" placeholder="Password" required>
-                  <input type="submit" value="Login">
+                  <input type="text" name="username" placeholder="Utilisateur" required>
+                  <input type="password" name="password" placeholder="Mot de passe" required>
+                  <input type="submit" value="connexion">
                 </div>
     </footer>
     <span class="copyright">&#169</span>
-    <a href="../html/index3.html" class="btn btn-default">Retour en haut ↑</a> 
+    <a href="../html/contact.html" class="btn btn-default">Retour en haut ↑</a> 
 </body>
 </html>

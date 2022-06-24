@@ -39,10 +39,13 @@ h1 {
     color:	#556B2F;
     font-family: Courier New, monospace;
     font-size: 80px;
-    font-size: 10.5em;
-    font-size: 10.5rem;
+    font-size: 5.5em;
+    font-size: 5.5rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+h1:hover{
+  color: yellow;
 }
 * {box-sizing: border-box}
 .container {
@@ -183,4 +186,17 @@ input[type=text], select, textarea {
   .btn{
     color:#062b16 ;
 
+  }
+  #carte{
+    text-align: center;
+  }
+  .bouton{
+    text-align: center;
+  }
+  a{
+    text-align: center;
+    color: #062b16;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: Courier New, monospace;
   }

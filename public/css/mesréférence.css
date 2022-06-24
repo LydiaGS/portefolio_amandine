@@ -41,10 +41,13 @@ h1 {
     color: #556B2F;
     font-family: Courier New, monospace;
     font-size: 80px;
-    font-size: 10.5em;
-    font-size: 10.5rem;
+    font-size: 5.5em;
+    font-size: 5.5rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+h1:hover{
+    color:yellow ;
 }
 
 * {
@@ -310,4 +313,22 @@ h2 {
     text-align: center;
     color: #062b16;
 
+}
+.level{
+    text-align: center;
+    color: #556B2F;
+    font-family: Courier New, monospace;
+}
+h5{
+    text-align: center;
+    color: #556B2F;
+    font-family: Courier New, monospace;
+    font-size: 80px;
+    font-size: 5.5em;
+    font-size: 5.5rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h5:hover{
+    color:greenyellow;
 }
