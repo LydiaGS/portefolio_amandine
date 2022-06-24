@@ -1,0 +1,186 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#6B8E23;
+    font-family: Courier New, monospace;
+    font-size: 30px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:#556B2F;
+}
+.active {
+    background-color: white;
+}
+body{
+    background-image:url("../img/tunic_image_de_font.jpg")
+    display: flex;
+}
+body {
+    background-image: url("../img/font2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    color:	#556B2F;
+    font-family: Courier New, monospace;
+    font-size: 80px;
+    font-size: 10.5em;
+    font-size: 10.5rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+* {box-sizing: border-box}
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+}
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+input[type=submit] {
+  background-color:#556B2F;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: 	#556B2F;
+}
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid#6B8E23;
+  height: 175px;
+}
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #6B8E23;
+  border: 1px solid #6B8E23;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+.hide-md-lg {
+  display: none;
+}
+.bottom-container {
+  text-align: center;
+  background-color: #6B8E23;
+  border-radius: 0px 0px 4px 4px;
+}
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  .vl {
+    display: none;
+  }
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+span.copyright {
+    position: absolute;
+    width: 100%;
+    color:whitesmoke;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;v
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  input[type=submit] {
+    background-color:	#6B8E23;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color:		#556B2F;
+  }
+  .container {
+    border-radius: 5px;
+    background-color:#6B8E23;
+    padding: 20px;
+  }
+  h2{
+    color: #062b16;
+  }
+  .btn{
+    color:#062b16 ;
+
+  }
