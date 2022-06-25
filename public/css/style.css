@@ -311,6 +311,40 @@ span.copyright {
   }
   .btn{
     color:#062b16 ;
-
   }
- 
+  h2{
+    text-align: center;
+    color: black;
+    font-family: Courier New, monospace;
+    font-size: 80px;
+    font-size: 3.5em;
+    font-size: 3.5rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  h2:hover{
+    color:plum;
+  }
+  button{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:#6B8E23;
+    font-family: Courier New, monospace;
+    font-size: 30px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    transition: 12s;
+    font-weight: bold;
+    border-radius: 30px;
+  }
+  button:hover{
+    transform: scale(1,3);
+    cursor: pointer;
+    color:white ;
+    background-color:#6B8E23 ;
+  }
+  

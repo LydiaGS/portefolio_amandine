@@ -332,3 +332,16 @@ h5{
 h5:hover{
     color:greenyellow;
 }
+h2{
+    text-align: center;
+    color:	black;
+    font-family: Courier New, monospace;
+    font-size: 80px;
+    font-size: 3.5em;
+    font-size: 3.5rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  h2:hover{
+    color:plum;
+  }

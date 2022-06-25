@@ -1,0 +1,401 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6B8E23;
+  font-family: Courier New, monospace;
+  font-size: 30px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #556B2F;
+}
+
+.active {
+  background-color: #556B2F;
+}
+
+body {
+  background-image: url("../img/font2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: #556B2F;
+  font-family: Courier New, monospace;
+  font-size: 80px;
+  font-size: 5.5em;
+  font-size: 5.5rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1:hover {
+  color: yellow;
+}
+
+* {
+  box-sizing: border-box
+}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #556B2F;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+span.copyright {
+  position: absolute;
+  width: 100%;
+  color: whitesmoke;
+  line-height: 40px;
+  font-size: 0.7em;
+  text-align: center;
+  bottom: 0;
+  v
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #556B2F;
+  padding: 20px 0 30px 0;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #556B2F;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #556B2F;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid#6B8E23;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #6B8E23;
+  border: 1px solid #6B8E23;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #6B8E23;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+span.copyright {
+  position: absolute;
+  width: 100%;
+  color: whitesmoke;
+  line-height: 40px;
+  font-size: 0.7em;
+  text-align: center;
+  bottom: 0;
+  v
+}
+
+h2 {
+  color: #062b16;
+}
+
+.btn {
+  color: #062b16;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-family: Courier New, monospace;
+  font-size: 80px;
+  font-size: 3.5em;
+  font-size: 3.5rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h2:hover {
+  color: plum;
+}
+
+#image {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #6B8E23;
+  font-family: Courier New, monospace;
+  font-size: 80px;
+  font-size: 3.5em;
+  font-size: 3.5rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h3:hover {
+  color: black;
+}
+
+.chargement{
+  /* création du loeder*/
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #3498db ;
+  border-bottom: 10px solid #8e44ad ;
+  border-left: #04AA6D;
+  border-right: #dd4b39;
+  border-radius:50% ;
+width: 100px;
+height: 100px;
+-webkit-animation: spin 3s linear infinite;
+-o-animation:spin 3s linear infinite;
+animation:spin 3s linear infinite;
+/* placement du loeder au milieu de la page */
+margin: auto;
+position:absolute;
+top: 0; left: 0; right: 0; bottom:  0;
+}
+/* animation du loader*/ 
+@keyframes spin{
+  0%{
+    @-webkit-transform: rotate(0deg)
+  }
+  100%{
+    @-webkit-transform: rotate(360deg)
+}
+}
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
